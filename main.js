@@ -1,8 +1,10 @@
-let userName = "Frances";
+//This script fulfills the project reqs for "Magic Eight Ball" in Codecademy
+
+let userName = "Frances"; //Value of userName can change
 
 userName ? console.log(`Hello ${userName}!`) : console.log("Hello Guest!");
 
-let userQuestion = "Will a Chevy team win the championship?";
+let userQuestion = "Will a Chevy team win the championship?"; //Value of userQuestion can change
 
 console.log(`${userName} asked - "${userQuestion}"`);
 
@@ -10,7 +12,7 @@ let randomNumber = Math.floor(Math.random() * 8);
 
 let eightBall = '';
 
-switch (randomNumber) {
+switch (randomNumber) { //switch statements determine what the eightBall will return as strings
   case 0:
     eightBall = "It is certain!"
     break;
